@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 
 import { MagnifyingGlass } from "phosphor-react";
 import Moviee from "./components/Moviee";
+import Footer from "./components/Footer";
 // c6c4c7f3
 // aPI KEYS
 const movie1 = {
@@ -59,6 +60,7 @@ const App = () => {
           <h2>No movies found</h2>
         </div>
       )}
+      <Footer/>
     </div>
   );
 };
